@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tilesheet" tilewidth="32" tileheight="32">
+  <image source="tilesheet.png" trans="ff00ff" width="224" height="224"/>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="100"/>
+    <frame tileid="38" duration="100"/>
+    <frame tileid="39" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="50" name="snowflake" tilewidth="32" tileheight="32">
+  <image source="snowflake.png" trans="ff00ff" width="32" height="32"/>
+ </tileset>
+ <layer name="bglayer1" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzqENADAMA7A9s/1/4nhBU6nUloISkHMAAABIXknqp5tuv/20cUtSP910++2n5ANdfgYo
+  </data>
+ </layer>
+ <layer name="collisionlayer" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAKEgFgYikUG2C30ANID7QA6AgUK9ILSxWBJD9xoGBkgp198gFA6H2rpQo4CvQo4xPGFM7UBrc2HAQU62TMYgMJAO4CB+vGKnG/R8SgYOoBe+Z0aAFuaI1QXKhChhtpukidDDzb/8JNhPznuJYSJcRM+vcT4A5/ZpKqhRD019AMA6/wGxw==
+  </data>
+ </layer>
+ <layer name="Terrain Layer" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztlt0KgzAMhfMATubFpgO92M/7P+MSbKCE/iTSrSr94OCFTTmnTWkBGo2ydKiLU1/ZS6MsnfteURNqMNYeoR/8/iVmWPOShsi4I+TSQFkX1N1pVNZxX1j6oRY3WLMRck9D4+Q6cNY5UbtHOI92Twk/62Ks3Sv+uZUizpQ1xxmz+uc2pBpZQz2XuzN+fV9u9RQ7O1avcq4tfnPSeCqVh98IE6TvFeYf9wf7eaJeqIeyJiTp1f8Xewta10TOGfOS8kR1b9QnMx/VfgH9Ogtw
+  </data>
+ </layer>
+ <layer name="fglayer" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2gAmImQfaEaNgUAHGgXYAFcFw8gulYDQsRsFQAaNpdRQMBEBPd8SkQ1qmVWztM1Lso3c+Isdt5LhxtN06cgAAoKAAHA==
+  </data>
+ </layer>
+ <objectgroup name="snowflakes">
+  <object x="1138" y="281" width="8" height="7">
+   <ellipse/>
+  </object>
+  <object x="1148" y="280" width="9" height="10">
+   <ellipse/>
+  </object>
+  <object x="1167" y="285" width="5" height="3">
+   <ellipse/>
+  </object>
+  <object x="1180" y="278" width="19" height="15">
+   <ellipse/>
+  </object>
+  <object x="1204" y="271" width="19" height="17">
+   <ellipse/>
+  </object>
+  <object x="1153" y="251" width="20" height="12">
+   <ellipse/>
+  </object>
+  <object x="1182" y="248" width="22" height="18">
+   <ellipse/>
+  </object>
+  <object x="1125" y="250" width="17" height="13">
+   <ellipse/>
+  </object>
+  <object x="1240" y="251" width="16" height="20">
+   <ellipse/>
+  </object>
+  <object x="1238" y="277" width="27" height="20">
+   <ellipse/>
+  </object>
+  <object x="1299" y="238" width="10" height="16">
+   <ellipse/>
+  </object>
+  <object x="1421" y="127" width="12" height="17">
+   <ellipse/>
+  </object>
+  <object x="1751" y="335">
+   <ellipse/>
+  </object>
+  <object x="1682" y="282">
+   <ellipse/>
+  </object>
+  <object x="1561" y="181">
+   <ellipse/>
+  </object>
+  <object x="1224" y="250">
+   <ellipse/>
+  </object>
+  <object x="984" y="43">
+   <ellipse/>
+  </object>
+  <object x="1134" y="108">
+   <ellipse/>
+  </object>
+  <object x="1192" y="148">
+   <ellipse/>
+  </object>
+  <object x="851" y="147">
+   <ellipse/>
+  </object>
+  <object x="882" y="361">
+   <ellipse/>
+  </object>
+  <object x="656" y="418">
+   <ellipse/>
+  </object>
+  <object x="496" y="238">
+   <ellipse/>
+  </object>
+  <object x="433" y="307">
+   <ellipse/>
+  </object>
+  <object x="689" y="170">
+   <ellipse/>
+  </object>
+  <object x="789" y="363">
+   <ellipse/>
+  </object>
+  <object x="1087" y="423">
+   <ellipse/>
+  </object>
+  <object x="1422" y="404">
+   <ellipse/>
+  </object>
+  <object x="1575" y="366">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="flag">
+  <object x="1893" y="425"/>
+ </objectgroup>
+</map>

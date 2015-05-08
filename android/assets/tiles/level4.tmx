@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tilesheet" tilewidth="32" tileheight="32">
+  <image source="tilesheet.png" trans="ff00ff" width="224" height="224"/>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="100"/>
+    <frame tileid="38" duration="100"/>
+    <frame tileid="39" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="50" name="snowflake" tilewidth="32" tileheight="32">
+  <image source="snowflake.png" trans="ff00ff" width="32" height="32"/>
+ </tileset>
+ <layer name="bglayer1" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzTEKADAIA0A/0/7/id0FqdSOd5DFEIwAAADgZqdMN1WX791fv62U6abq8r3768UBOO8E/A==
+  </data>
+ </layer>
+ <layer name="collisionlayer" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztk8EKgDAIhnfvEKxO7eL7P2UbIQyx5hbaAj8QYkv/P7UQHMdx9FnIMxeODdK+Q47dwtAEgPC9v+9pzLF9bWIQCJd3DO3dxF5ZaiKgXJ/b48ScHco+CmCgUdP6B0ZmTXeF5tb31nBz5eiZdaumVBN56l+8OefyevtLc2sd6cxip2ZhVbh7i7T2iIcZv/cE0ucGDw==
+  </data>
+ </layer>
+ <layer name="Terrain Layer" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztU9EKwjAMzAdU2R7UCfVB5/9/oyk0GGLWNRtdfcjBwUhp7q7JABwOh8NRg4A89zZxEEJvAwch5Tzl74gcO3qxgrwTLbuZsj6Qtx16Vs092LqPF+Q105K1JyjrINhqN/k/QFpP5CvXtsx6bTf5eUJkmq3zEpLmlLVm5Bt5b6zJdUlTy1t6v7BQ1+7JuQ7wzSxroNzlOnJmvI/0zjUn0HVbzTfCbz6NlllTT8ogvddoyjulfqU3qslm5bjSe8mfNS9l/oe8H4BLDmQ=
+  </data>
+ </layer>
+ <layer name="fglayer" width="60" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEKABAQhOHF+78z5eKgLLYm+r9yZduZmAEAPHI7RT0EQiX1AAFUvfxhd+hWWd52jK7s8exrlknEXzC+fXIfWeMFFcukACY=
+  </data>
+ </layer>
+ <objectgroup name="snowflakes">
+  <object x="230" y="333">
+   <ellipse/>
+  </object>
+  <object x="371" y="341">
+   <ellipse/>
+  </object>
+  <object x="492" y="278">
+   <ellipse/>
+  </object>
+  <object x="644" y="236">
+   <ellipse/>
+  </object>
+  <object x="781" y="164">
+   <ellipse/>
+  </object>
+  <object x="808" y="162">
+   <ellipse/>
+  </object>
+  <object x="852" y="376">
+   <ellipse/>
+  </object>
+  <object x="877" y="372">
+   <ellipse/>
+  </object>
+  <object x="971" y="198">
+   <ellipse/>
+  </object>
+  <object x="1554" y="83">
+   <ellipse/>
+  </object>
+  <object x="1581" y="84">
+   <ellipse/>
+  </object>
+  <object x="1619" y="84">
+   <ellipse/>
+  </object>
+  <object x="1648" y="78">
+   <ellipse/>
+  </object>
+  <object x="1518" y="80">
+   <ellipse/>
+  </object>
+  <object x="1488" y="81">
+   <ellipse/>
+  </object>
+  <object x="1071" y="137">
+   <ellipse/>
+  </object>
+  <object x="1677" y="314">
+   <ellipse/>
+  </object>
+  <object x="1718" y="180">
+   <ellipse/>
+  </object>
+  <object x="1875" y="356">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="flag">
+  <object x="1891" y="393"/>
+ </objectgroup>
+</map>
